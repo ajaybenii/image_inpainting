@@ -8,4 +8,5 @@ numpy
 matplotlib
 uuid
 opencv-python
+fastapi
 git+https://github.com/openai/CLIP.git
