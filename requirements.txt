@@ -9,4 +9,5 @@ matplotlib
 uuid
 opencv-python
 fastapi
+uvicorn
 git+https://github.com/openai/CLIP.git
