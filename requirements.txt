@@ -10,4 +10,5 @@ uuid
 opencv-python
 fastapi
 uvicorn
+replicate
 git+https://github.com/openai/CLIP.git
