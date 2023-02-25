@@ -14,7 +14,6 @@ from fastapi import FastAPI
 from torch import autocast
 
 from matplotlib import pyplot as plt
-from diffusers import DiffusionPipeline
 from torchvision import transforms
 from clipseg.models.clipseg import CLIPDensePredT
 
