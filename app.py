@@ -49,7 +49,7 @@ transform = transforms.Compose(
 
 def predict(radio, dict, word_mask, prompt=""):
     if(radio == "draw a mask above"):
-        with autocast("cuda"):
+        with autocast("cpu"):
             init_image = dict["image"].convert("RGB").resize((512, 512))
             mask = dict["mask"].convert("RGB").resize((512, 512))
     else:
